@@ -1,0 +1,102 @@
+
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'abstract';
+  src: local('abstrak'),
+    url('./assets/font/abstrak.ttf');
+}
+
+body {
+  margin: 0;
+  background-color: hsl(180 10% 20%);
+}
+
+/* HEADER */
+.containerHeader-button {
+  background-color: aqua;
+  padding: 20px;
+  text-align: center;
+}
+
+.header-button-1 {
+  margin: 0 20px;
+}
+
+.containerHeader-text {
+  border: 1px solid black;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.containerHeader-text p {
+  font-family: 'abstract';
+  font-size: 32px;
+  color: brown;
+  margin: 0;
+}
+
+/* FORM */
+.containerForm {
+  
+}
+
+.form-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.form-box input {
+  width: 50%;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.form-box label {
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.containerResponse {
+  margin: 20px auto;
+  text-align: center;
+  border: 1px solid black;
+  width: 40%;
+}
+
+/* FORM */
+.containerTable {
+}
+
+.table-box {
+  margin: 10px auto;
+  
+}
+
+.table-box caption {
+  color: white;
+  font-family: 'abstract';
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.thead {
+  font-family: 'abstract';
+  font-size: 28px;
+  
+}
+
+.tbody {
+  font-family: 'abstract';
+  font-size: 22px;
+}
+
+.tbody td {
+  padding: 0 30px;
+}
